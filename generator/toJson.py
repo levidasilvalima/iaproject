@@ -26,7 +26,7 @@ with open("base.txt", "r") as fl:
         case['kidneys'] = my_split(fl)
         case['fries'] = my_split(fl)    
         case['salt'] = my_split(fl)
-        case['sweetener'] = my_split(fl)
+        case['alcohol'] = my_split(fl)
         case['fruits'] = my_split(fl)
         cases[id] = case
         id += 1

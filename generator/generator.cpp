@@ -54,7 +54,7 @@ int main() {
 		cout << "salt:" << multiVal[idx] << endl;
 
 		idx = rand() % 4;
-		cout << "sweetener:" << multiVal[idx] << endl;
+		cout << "alcohol:" << multiVal[idx] << endl;
 
 		idx = rand() % 4;
 		cout << "fruits:" << multiVal[idx] << endl;
