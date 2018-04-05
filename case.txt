@@ -1,0 +1,17 @@
+Nome : Texto
+Sexo : M | F
+Faixa Etária : 10-18 | 19-30 | 31-60 | 61--
+Hipertenção : S | N
+Colesterol : S | N
+Diabetes : S | N
+Frequência de Consumo de Álcool : Nenhum | Pouco | Normal | Bastante
+Nível de Atividade : Repouso, Leve, Moderado, Ativo
+Frequência de Consumo de Água : Nenhum | Pouco | Normal | Bastante
+Problemas Renais : S | N
+Consumo de Refrigerantes : Nenhum | Pouco | Normal | Bastante
+Consumo de Frituras : Nenhum | Pouco | Normal | Bastante
+Consumo de Guloseimas : Nenhum | Pouco | Normal | Bastante
+Consumo de Sal : Nenhum | Pouco | Normal | Bastante
+Consumo de Salada : Nenhum | Pouco | Normal | Bastante
+Consumo de Frutas : Nenhum | Pouco | Normal | Bastante
+Consumo de Embutidos : Nenhum | Pouco | Normal | Bastante
