@@ -21,10 +21,8 @@
 
     <body>
       <!--Import jQuery before materialize.js-->
-      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
-    
-</head>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 
 <body> 
   <div class="container">
@@ -35,17 +33,26 @@
     <dir class="right">
       
       <p><b>Similaridade: </b>A partir de: 85%</p>  
-    </dir> 
-      
+    </dir>
 
-    
-    
-  </div>
-  
+    <div id="div-table">
+      <table class="highlight responsive-table">
+        <thead>
+          <tr>
+            <th>Características</th>
+            <th id="name_source_case">Fulano</th>
+            <th id="name_comp_case">Ciclano</th>
+          </tr>
+        </thead>
+        <tbody id="attribute_table">
+        </tbody>
+      </table>
+    </div>
 
-
+<script src="js/list_case.js"></script>
 <script>
-       
+  var t = {"levi" : "teste"};
+  console.log(t['levi']);
 </script>
 
 </body>
