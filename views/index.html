@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=10; IE=9; IE=8; IE=7; IE=EDGE" />
+
+    <title>Sistema Especialista</title>
+    <!-- Compiled and minified CSS -->
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+    
+    <!--    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>-->
+
+    <!-- jQuery must have to be imported before importing materialize.js! -->
+<!--    <script src="js/materialize.min.js"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/modal-register.css">-->
+</head>
+
+<body>
+
+<div class="container">
+  <div class="row">
+
+    <form class="col s12">
+
+      <div class="row">
+        <div class="input-field col s6">
+        <input placeholder="Placeholder" id="name" type="text" class="validate">
+        <label for="name">First Name</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Masculino</option>
+          <option value="2">Feminino</option>
+          </select>
+          <label>Sexo</label>
+        </div>
+        
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">10 a 18</option>
+          <option value="2">19 a 30</option>
+          <option value="3">31 a 60</option>
+          <option value="3">61 ou mais</option>
+          </select>
+          <label>Faixa Etária</label>
+        </div>
+
+        
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Sim</option>
+          <option value="2">Não</option>
+          </select>
+          <label>Diabetes</label>
+        </div>
+
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Sim</option>
+          <option value="2">Não</option>
+          </select>
+          <label>Colesterol</label>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Sim</option>
+          <option value="2">Não</option>
+          </select>
+          <label>Hipertenção</label>
+        </div>
+
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Nenhum</option>
+          <option value="2">Pouco</option>
+          <option value="3">Normal</option>
+          <option value="4">Bastante</option>
+          </select>
+          <label>Frequência em consumo de Água</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Nenhum</option>
+          <option value="2">Pouco</option>
+          <option value="3">Normal</option>
+          <option value="4">Bastante</option>
+          </select>
+          <label>Consumo de Embutidos</label>
+        </div>
+
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Nenhum</option>
+          <option value="2">Pouco</option>
+          <option value="3">Normal</option>
+          <option value="4">Bastante</option>
+          </select>
+          <label>Consumo de Guloseimas</label>
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Nenhum</option>
+          <option value="2">Pouco</option>
+          <option value="3">Normal</option>
+          <option value="4">Bastante</option>
+          </select>
+          <label>Consumo de Salada</label>
+        </div>
+
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Nenhum</option>
+          <option value="2">Pouco</option>
+          <option value="3">Normal</option>
+          <option value="4">Bastante</option>
+          </select>
+          <label>Consumo de Refrigerante</label>
+        </div>  
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Repouso</option>
+          <option value="2">Leve</option>
+          <option value="3">Moderado</option>
+          <option value="4">Ativo</option>
+          </select>
+          <label>Níve de Atividades</label>
+        </div>
+
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Sim</option>
+          <option value="2">Não</option>
+          </select>
+          <label>Problemas Renais</label>
+        </div>  
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Nenhum</option>
+          <option value="2">Pouco</option>
+          <option value="3">Normal</option>
+          <option value="4">Bastante</option>
+          </select>
+          <label>Consumo de Frituras</label>
+        </div>
+
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Nenhum</option>
+          <option value="2">Pouco</option>
+          <option value="3">Normal</option>
+          <option value="4">Bastante</option>
+          </select>
+          <label>Consumo de Sal</label>
+        </div>  
+      </div>
+
+      <div class="row">
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Nenhum</option>
+          <option value="2">Pouco</option>
+          <option value="3">Normal</option>
+          <option value="4">Bastante</option>
+          </select>
+          <label>Consumo de Salada</label>
+        </div>
+
+        <div class="input-field col s6">
+          <select>
+          <option value="" disabled selected>Escolha sua Opção</option>
+          <option value="1">Nenhum</option>
+          <option value="2">Pouco</option>
+          <option value="3">Normal</option>
+          <option value="4">Bastante</option>
+          </select>
+          <label>Consumo de Frutas</label>
+        </div>  
+      </div>
+
+  </form>
+  </div>
+</div>
+
+<script>
+    
+      $(document).ready(function() {
+    $('select').material_select();
+  });
+       
+</script>
+
+</body>
+</html>
